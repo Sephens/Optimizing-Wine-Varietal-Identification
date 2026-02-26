@@ -54,6 +54,10 @@ st.markdown("""
         padding: 2px 12px; font-size: 0.75rem; font-weight: bold;
     }
     [data-testid="stSidebar"] { background: linear-gradient(180deg, #1a1a2e 0%, #16213e 100%); }
+    [data-testid="stSidebar"] * { color: #f1f5f9 !important; }
+    [data-testid="stSidebar"] .stRadio label p { color: #f1f5f9 !important; }
+    [data-testid="stSidebar"] h1, [data-testid="stSidebar"] h2, [data-testid="stSidebar"] h3, [data-testid="stSidebar"] p, [data-testid="stSidebar"] span { color: #f1f5f9 !important; }
+    [data-testid="stSidebar"] hr { border-color: #4a1d6e; }
     h1, h2, h3 { color: #e2e8f0; }
 </style>
 """, unsafe_allow_html=True)
